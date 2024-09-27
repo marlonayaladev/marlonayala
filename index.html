@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marlon Ayala</title>
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+      
+
+        <div class="info-content">
+          <h1 class="name" title="Marlon Ayala">Marlon Ayala</h1>
+      
+
+          <p class="title">Estudiante de Ingenieria de Software</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contactos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Correo</p>
+
+              <a href="mailto:iammarlonayala@gmail.com" class="contact-link">iammarlonayala@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Celular</p>
+
+              <a href="tel:+51946415535" class="contact-link">+51 946 415 535</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">EDAD</p>
+
+              <time datetime="1982-06-23">19 Años</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+
+              <address>Lima, Perú</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Perfil</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumen</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Proyectos</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="perfil">
+
+        <header>
+          <h2 class="h2 article-title">Sobre Mi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Soy estudiante de Ingeniería de Software, apasionado tanto por el frontend como por el backend. 
+            Disfruto creando soluciones digitales que no solo sean funcionales, sino también visualmente 
+            atractivas y fáciles de usar.
+          </p>
+
+          <p>
+            Mi objetivo es desarrollar servicios, aplicaciones, sitios web, entre otros con la capacidad de que sean eficientes, 
+            intuitivos y que ofrezcan una experiencia de usuario excepcional. Me esfuerzo por fusionar la lógica y 
+            el diseño para construir productos que comuniquen tu mensaje de manera clara y creativa. He trabajado en 
+            proyectos que abarcan desde la creación de interfaces amigables hasta la implementación de sistemas robustos 
+            y escalables.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Competencias Clave</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Resolución de Problemas</h4>
+
+                <p class="service-item-text">
+                  Capacidad para identificar problemas, analizar situaciones, evaluar
+                  opciones y tomar decisiones efectivas para resolver problemas de manera eficiente.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Comunicación Efectiva</h4>
+
+                <p class="service-item-text">
+                  Capacidad para transmitir información de manera clara y comprensible tanto
+                  verbalmente como por escrito, y para escuchar activamente a los demás.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pensamiento Crítico</h4>
+
+                <p class="service-item-text">
+                  Habilidad para analizar y evaluar información de manera objetiva, cuestionando
+                  suposiciones, identificando tendencias y tomando decisiones fundamentadas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Adaptabilidad</h4>
+
+                <p class="service-item-text">
+                  Habilidad para ajustarse y prosperar en entornos cambiantes, mostrando flexibilidad,
+                  capacidad de recuperación y disposición para aprender nuevas habilidades.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="lenguajes">
+
+          <h3 class="h3 testimonials-title">Programo En:</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    El desarrollo más moderno y de alta calidad, llevado a cabo con profesionalismo y precisión.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>JavaScript</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Desarrollo interactivo y dinámico de aplicaciones web con un enfoque profesional y de alta calidad.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lenguaje C</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Programación robusta y eficiente a nivel profesional, con un enfoque en alto rendimiento y precisión.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HTML</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Desarrollo de sitios web de alta calidad con un enfoque profesional y detallado.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Css</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Desarrollo interactivo y dinámico de aplicaciones web con un enfoque profesional y de alta calidad.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Python</h4>
+
+              <div data-modal-text>
+                <p>
+                  El desarrollo más moderno y de alta calidad, llevado a cabo con profesionalismo y precisión.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+ 
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resumen" data-page="resumen">
+
+        <header>
+          <h2 class="h2 article-title">Resumen</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educacion</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UNIVERSIDAD DE LIMA</h4>
+
+              <span>2023 - Ahora</span>
+
+              <p class="timeline-text">
+              He adquirido una sólida base en programación, estructuras de datos y algoritmos.
+              Aprendí a diseñar y desarrollar soluciones de software, trabajando con bases de datos y aplicando principios 
+              de ingeniería de software en proyectos que me han permitido fortalecer mis habilidades técnicas y analíticas.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiencia</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">APLICACION DE MAPEO UNIVERSITARIO</h4>
+
+              <span>Back-End</span>
+
+              <p class="timeline-text">
+                El proyecto consistió en crear un mapa de la universidad, inspirándonos en Google Maps. 
+                Utilizamos Python y bibliotecas como Pandas para el procesamiento de datos, además de herramientas 
+                como Leaflet para la visualización de mapas y APIs para la geolocalización. De esta manera,
+                cualquier persona que no estuviera familiarizada con el campus podía abrir la aplicación, ver su
+                ubicación actual y recibir indicaciones precisas sobre cómo llegar a su destino deseado.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SISTEMA DE CONTROL DE TIEMPO ESTIMADO DE VIAJES EN BUS</h4>
+
+              <span>Front-End</span>
+
+              <p class="timeline-text">
+                Desarrollé un sistema para gestionar el tiempo estimado de viaje de los buses, permitiendo a 
+                los usuarios elegir la ruta más corta. Implementé la lógica de cálculo del tiempo de viaje y 
+                optimicé el rendimiento del sistema. Además, diseñé una interfaz amigable para mejorar la experiencia del usuario, facilitando la visualización y selección de la opción más eficiente.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SISTEMA DE REGISTRO Y NOTIFICACIONES DE PAGOS</h4>
+
+              <span>En Desarrollo - Proyecto Propio</span>
+
+              <p class="timeline-text">
+                Desarrollé un sistema de registro y notificaciones de pagos que permite a los usuarios registrar sus 
+                pagos y recibir notificaciones automáticas sobre las fechas de vencimiento. Implementé funcionalidades
+                 para ingresar, almacenar y gestionar los datos de pago, y desarrollé un sistema de alertas que notifica
+                  a los usuarios con antelación cuando se aproxima la fecha límite para cada pago. La interfaz está
+                   diseñada para ser intuitiva y fácil de usar, asegurando que los usuarios puedan gestionar 
+                   sus pagos de manera eficiente y oportuna.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Herramientas de Desarrollo</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="76">76%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 76%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="73">73%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 73%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="79">79%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 79%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="73">73%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 73%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="proyectos" data-page="proyectos">
+
+        <header>
+          <h2 class="h2 article-title">Proyectos</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="Boton-select" data-select>
+
+              <div class="Boton" data-selecct-value>Boton</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sistema de Registro y Notificaciones de Pagos</h3>
+
+                <p class="project-category">En Desarrollo 🚀...</p>
+
+              </a>
+            </li>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      
+
+    </div>
+
+  </main>
+
+  <!--
+    js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
