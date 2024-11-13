@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -9,17 +9,17 @@
 
 
   <!--
-    - favicon
+    - icono - favicon
   -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
-    - custom css link
+    - estilos css
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
-    - google font link
+    - link de los fonts 
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -160,7 +160,7 @@
 
 
       <!--
-        - #ABOUT
+        - #about
       -->
 
       <article class="about  active" data-page="perfil">
@@ -187,7 +187,7 @@
 
 
         <!--
-          - service
+          - servicios
         -->
 
         <section class="service">
@@ -272,7 +272,7 @@
 
 
         <!--
-          - testimonials
+          - lenguajes de programación
         -->
 
         <section class="lenguajes">
@@ -326,7 +326,7 @@
                   <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lenguaje C</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C++</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
@@ -373,13 +373,31 @@
               </div>
             </li>
 
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SQL</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Creación y gestión de bases de datos, diseño de consultas y optimización de rendimiento. Manipulación de datos y relaciones entre tablas.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
           </ul>
 
         </section>
 
 
         <!--
-          - testimonials modal
+          - icono de lenguajes
         -->
 
         <div class="modal-container" data-modal-container>
@@ -420,7 +438,7 @@
 
  
       <!--
-        - #RESUME
+        - #resumen
       -->
 
       <article class="resumen" data-page="resumen">
@@ -473,22 +491,57 @@
 
           <ol class="timeline-list">
 
+            
             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">OPTISOFT</h4>
+              
 
-              <h4 class="h4 timeline-item-title">APLICACION DE MAPEO UNIVERSITARIO</h4>
-
-              <span>Back-End</span>
+              <span>Desarrollo de APIs RESTful</span>
 
               <p class="timeline-text">
-                El proyecto consistió en crear un mapa de la universidad, inspirándonos en Google Maps. 
-                Utilizamos Python y bibliotecas como Pandas para el procesamiento de datos, además de herramientas 
-                como Leaflet para la visualización de mapas y APIs para la geolocalización. De esta manera,
-                cualquier persona que no estuviera familiarizada con el campus podía abrir la aplicación, ver su
-                ubicación actual y recibir indicaciones precisas sobre cómo llegar a su destino deseado.
+                Desarrollé y mantuve APIs para comunicar el frontend con el servidor usando 
+                Flask, támbien hice pruebas con Node.js y Django. Esto incluyendo manejar rutas, autenticar usuarios, y
+                asegurar los datos.
               </p>
+
+              <br>
+
+              <span>Gestión de Bases de Datos</span>
+
+              <p class="timeline-text">
+                Diseñé y optimicé bases de datos en MySQL, asegurando su eficiencia y manteniendo relaciones entre datos.
+              </p>
+
+              <br>
+              
+              <span>Optimización de Procesos</span>
+
+              <p class="timeline-text">
+                Mejoré la eficiencia de algoritmos y procesos internos, optimizando el rendimiento del backend.
+              </p>
+
+              <br>
+              
+              <span>Diseño Responsivo</span>
+
+              <p class="timeline-text">
+                Implementé diseños adaptables usando CSS y Bootstrap, para que la app funcione en dispositivos móviles, tablets, y escritorios.
+              </p>
+
+              <br>
+              
+              <span>Desarrollo de Interfaces Modernas</span>
+
+              <p class="timeline-text">
+                Usé tecnologías como React, Angular y Vue.js para construir interfaces interactivas, asegurando una excelente experiencia de usuario.
+              </p>
+
+
 
             </li>
 
+            </li>
+<br>
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">SISTEMA DE CONTROL DE TIEMPO ESTIMADO DE VIAJES EN BUS</h4>
@@ -526,19 +579,14 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Herramientas de Desarrollo</h3>
+          <h3 class="h3 skills-title">Habilidades</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
+                <hr><h5 class="h5">Lógica de Programación</h5>             
               </div>
 
             </li>
@@ -546,12 +594,26 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">JavaScript</h5>
-                <data value="76">76%</data>
+                <hr><h5 class="h5">Manejo de Algoritmos y Estructuras de Datos</h5>
+               
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <hr><h5 class="h5">Desarrollo Web</h5>
+                
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 76%;"></div>
+              
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <hr><h5 class="h5">Desarrollo Backend</h5>
+        
               </div>
 
             </li>
@@ -559,39 +621,11 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">C</h5>
-                <data value="73">73%</data>
+              <hr><h5 class="h5">Automatización de Tareas </h5>
+               
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 73%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-                <data value="79">79%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 79%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Css</h5>
-                <data value="73">73%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 73%;"></div>
-              </div>
+        
 
             </li>
 
@@ -606,7 +640,7 @@
 
 
       <!--
-        - #PORTFOLIO
+        - #Proyectos
       -->
 
       <article class="proyectos" data-page="proyectos">
@@ -621,7 +655,7 @@
 
             <button class="Boton-select" data-select>
 
-              <div class="Boton" data-selecct-value>Boton</div>
+              <div class="Boton" data-selecct-value> </div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -654,27 +688,7 @@
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
       
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      
-
     </div>
 
   </main>

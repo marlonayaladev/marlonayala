@@ -3,22 +3,10 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
-   * colors
+   * colores
    */
 
   /* gradient */
@@ -70,13 +58,13 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
-   * typography
+   * tipografia
    */
 
-  /* font-family */
+  /* font*/
   --ff-poppins: 'Poppins', sans-serif;
 
-  /* font-size */
+  /* font tamaño */
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -86,7 +74,7 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
+  /* font weight */
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
@@ -103,7 +91,7 @@
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
   /**
-   * transition
+   * transición
    */
 
   --transition-1: 0.25s ease;
@@ -116,7 +104,7 @@
 
 
 /*-----------------------------------*\
-  #RESET
+  #reset
 \*-----------------------------------*/
 
 *, *::before, *::after {
@@ -162,7 +150,7 @@ body { background: var(--smoky-black); }
 
 
 /*-----------------------------------*\
-  #REUSED STYLE
+  #estilo reciclados
 \*-----------------------------------*/
 
 .sidebar,
@@ -509,7 +497,7 @@ main {
 
 
 /**
- * #service 
+ * #SERVICIO
  */
 
 .service { margin-bottom: 35px; }
@@ -557,7 +545,7 @@ main {
 
 
 /**
- * #testimonials 
+ * #LENGUAJES (antes testimonios) 
  */
 
 .testimonials { margin-bottom: 30px; }
@@ -609,7 +597,7 @@ main {
 
 
 /**
- * #testimonials-modal
+ * #MODAL
  */
 
 .modal-container {
@@ -723,7 +711,7 @@ main {
 
 
 /**
- * #clients 
+ * #foto lenguajes (antes clientes) 
  */
 
 .clients { margin-bottom: 15px; }
@@ -761,14 +749,14 @@ main {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #RESUMEN
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
 
 
 /**
- * education and experience 
+ * educación y experiencia a
  */
 
 .timeline { margin-bottom: 30px; }
@@ -872,7 +860,7 @@ main {
 
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #PROYECTOS
 \*-----------------------------------*/
 
 .filter-list { display: none; }
@@ -1031,7 +1019,7 @@ main {
 
 
 /*-----------------------------------*\
-  #BLOG
+  #BLOG (quitado) 
 \*-----------------------------------*/
 
 .blog-posts { margin-bottom: 10px; }
@@ -1119,7 +1107,7 @@ main {
 
 
 /*-----------------------------------*\
-  #CONTACT
+  #contacto
 \*-----------------------------------*/
 
 .mapbox {
@@ -1226,17 +1214,17 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /*-----------------------------------*\
-  #RESPONSIVE
+  #Version para celular
 \*-----------------------------------*/
 
 /**
- * responsive larger than 450px screen
+ *450px 
  */
 
 @media (min-width: 450px) {
 
   /**
-   * client
+   * lenguajes (antes clientes)
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
@@ -1244,7 +1232,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PROYECTOS, BLOG
    */
 
   .project-img,
@@ -1257,7 +1245,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /**
- * responsive larger than 580px screen
+ *580px 
  */
 
 @media (min-width: 580px) {
@@ -1269,7 +1257,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   :root {
 
     /**
-     * typography
+     * tipografia 
      */
 
     --fs-1: 32px;
@@ -1285,7 +1273,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #REUSED STYLE
+   * #estilo reusado
    */
 
   .sidebar, article {
@@ -1389,7 +1377,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
-  /* service */
+  /* servicio */
 
   .service-item {
     display: flex;
@@ -1406,7 +1394,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .service-content-box { text-align: left; }
 
-  /* testimonials */
+  /* lenguajes de programacion (antes testimonios) */
 
   .testimonials-title { margin-bottom: 25px; }
 
@@ -1439,7 +1427,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     -webkit-line-clamp: 2;
   }
 
-  /* testimonials modal */
+  /* testimonios modal */
 
   .modal-container { padding: 20px; }
 
@@ -1471,7 +1459,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 35px;
   }
 
-  /* clients */
+  /* lenguajes de programacion */
 
   .clients-list {
     gap: 50px;
@@ -1503,7 +1491,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG
+   * #proyectos y blog
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1515,7 +1503,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #CONTACT
+   * #contacto
    */
 
   .mapbox {
@@ -1546,13 +1534,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /**
- * responsive larger than 768px screen
+ * 768px 
  */
 
 @media (min-width: 768px) {
 
   /**
-   * REUSED STYLE
+   * estilos reusados
    */
 
   .sidebar, article { width: 700px; }
@@ -1584,7 +1572,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * ABOUT
    */
 
-  /* testimonials modal */
+  /* LENGUAJES DE PRGRAMACIÓN */
 
   .testimonials-modal {
     gap: 35px;
@@ -1596,7 +1584,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * PROYECTOS
    */
 
   .article-title { padding-bottom: 20px; }
@@ -1622,14 +1610,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and blog grid */
+  /* PROYECTOS Y BLOG*/
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
 
 
   /**
-   * CONTACT
+   * CONTACTO
    */
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
@@ -1646,13 +1634,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /**
- * responsive larger than 1024px screen
+ * 1024px 
  */
 
 @media (min-width: 1024px) {
 
   /**
-   * CUSTOM PROPERTY
+   * 
    */
 
   :root {
@@ -1670,7 +1658,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * REUSED STYLE
+   * estilos reusados
    */
 
   .sidebar, article {
@@ -1723,25 +1711,25 @@ textarea.form-input::-webkit-resizer { display: none; }
    * ABOUT
    */
 
-  /* service */
+  /* servicio */
 
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-  /* testimonials */
+  /* testimonios */
 
   .testimonials-item { min-width: calc(50% - 15px); }
 
-  /* clients */
+  /* lenguajes de programacion */
 
   .clients-item { min-width: calc(25% - 38px); }
 
 
 
   /**
-   * PORTFOLIO
+   * proyectos
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
@@ -1749,7 +1737,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * BLOG
+   * blog
    */
 
   .blog-banner-box { height: 230px; }
@@ -1761,7 +1749,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /**
- * responsive larger than 1250px screen
+ * 1250px 
  */
 
 @media (min-width: 1250px) {
@@ -1789,7 +1777,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * REUSED STYLE
+   * ESTILOS REUSADOS
    */
 
   .sidebar, article { width: auto; }
